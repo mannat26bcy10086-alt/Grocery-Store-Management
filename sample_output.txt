@@ -1,0 +1,74 @@
+GROCERY STORE MANAGEMENT
+
+1. Manage Products
+2. Customer Cart
+3. Make Bill
+4. Check Stock Report
+5. Sort Products
+6. Exit
+
+Enter choice: 1
+
+========== MANAGE PRODUCTS ==========
+1. Show All Products
+2. Add New Product
+3. Change Product Details
+4. Delete Product
+5. Find Product
+6. Back
+
+Enter choice: 1
+
+ID      PRODUCT                    PRICE       STOCK
+101     Rice                      ₹60.00          25
+102     Wheat Flour               ₹55.00          20
+103     Milk                      ₹30.00          35
+104     Bread                     ₹40.00          15
+105     Maggi                     ₹15.00          40
+106     Biscuits                  ₹25.00          30
+107     Cooking Oil              ₹145.00          18
+108     Sugar                     ₹45.00          28
+109     Tea                       ₹90.00          12
+110     Salt                      ₹25.00          22
+
+Enter choice: 6
+
+========== CUSTOMER CART ==========
+1. Add Item
+2. Remove Item
+3. Show Cart
+4. Back
+
+Enter choice: 1
+Enter product ID: 105
+Enter quantity: 2
+2 x Maggi added to cart.
+
+Enter choice: 1
+Enter product ID: 103
+Enter quantity: 2
+2 x Milk added to cart.
+
+Enter choice: 3
+
+PRODUCT                       QTY          PRICE         AMOUNT
+--------------------------------------------------------------------
+Maggi                           2         ₹15.00          ₹30.00
+Milk                            2         ₹30.00          ₹60.00
+
+Enter choice: 4
+
+Enter choice: 3
+
+==================== CUSTOMER BILL ====================
+
+PRODUCT                       QTY          PRICE         AMOUNT
+--------------------------------------------------------------------
+Maggi                           2         ₹15.00          ₹30.00
+Milk                            2         ₹30.00          ₹60.00
+--------------------------------------------------------------------
+                                             Subtotal ₹90.00
+                                             Discount ₹0.00
+                                           Final Total ₹90.00
+
+Bill created. Stock has been updated.
